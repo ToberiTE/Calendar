@@ -1,0 +1,46 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.background {
+    height: 90% !important;
+}
+
+.body-content {
+    transform: translateY(220px);
+    width: 100%;
+    height: 587px !important;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
+#dp {
+    margin-left: 225px;
+}
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.calendar_transparent_corner div:nth-of-type(2) {
+    display: none !important;
+}
+
+#logOut {
+    display: none;
+    float: right;
+    transform: translateY(-200px);
+    background: none;
+    border: none;
+}
+    #logOut i {
+        font-size: 40px;
+    }

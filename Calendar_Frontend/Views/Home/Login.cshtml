@@ -1,0 +1,78 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logga in</title>
+    <link href="~/Content/Login.css" rel="stylesheet" />
+    <link href="~/Content/spinner.css" rel="stylesheet" />
+    <link href="~/Content/fontawesome.min.css" rel="stylesheet" />
+    <link href="~/Content/solid.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="background"></div>
+    <div class="background-overlay">
+        <div class="login-box">
+            <h1>Logga in</h1>
+            <div class="textbox">
+                <i class="fas fa-user" aria-hidden="true"></i>
+                <input type="email" id="emailLoginField" placeholder="Email" name="" value="">
+            </div>
+            <div class="textbox">
+                <i class="fa fa-lock" aria-hidden="true"></i>
+                <input id="passwordLoginField" type="password" placeholder="Lösenord" name="" value="">
+            </div>
+            <div class="row">
+                <button id="login" type="submit" title="Logga in" style="float: left;"><i class="fas fa-sign-in-alt"></i></button>
+                <button id="showReg" type="button" title="Gå till registrering" style="border-color: cornflowerblue; float: right;"><i class="fas fa-user-plus"></i></button>
+            </div>
+            <label class="info"></label>
+        </div>
+        <div class="register-box">
+            <h1>Registrera</h1>
+            <div class="textbox">
+                <i class="fas fa-user" aria-hidden="true"></i>
+                <input type="email" id="emailRegisterField" placeholder="Email" name="" value="">
+            </div>
+            <div class="textbox">
+                <i class="fa fa-lock" aria-hidden="true"></i>
+                <input id="passwordRegisterField" type="password" placeholder="Lösenord" name="" value="">
+            </div>
+            <div class="textbox">
+                <i class="fa fa-lock" aria-hidden="true"></i>
+                <input id="passwordConfirmField" type="password" placeholder="Bekräfta lösenord" name="" value="">
+            </div>
+            <div class="row">
+                <button id="showLogin" type="button" title="Gå till inloggning"><i class="fas fa-sign-in-alt"></i></button>
+                <button id="register" type="submit" title="Registrera"><i class="fas fa-user-plus"></i></button>
+            </div>
+            <label class="info"></label>
+        </div>
+    </div>
+</body>
+</html>
+
+<div class="spinner-overlay" style="display: none;">
+    <div class="spinner">
+        <div class="spinner-circle1 spinner-circle"></div>
+        <div class="spinner-circle2 spinner-circle"></div>
+        <div class="spinner-circle3 spinner-circle"></div>
+        <div class="spinner-circle4 spinner-circle"></div>
+        <div class="spinner-circle5 spinner-circle"></div>
+        <div class="spinner-circle6 spinner-circle"></div>
+        <div class="spinner-circle7 spinner-circle"></div>
+        <div class="spinner-circle8 spinner-circle"></div>
+        <div class="spinner-circle9 spinner-circle"></div>
+        <div class="spinner-circle10 spinner-circle"></div>
+        <div class="spinner-circle11 spinner-circle"></div>
+        <div class="spinner-circle12 spinner-circle"></div>
+    </div>
+</div>
+
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script src="~/Scripts/loginpage.js"></script>
+
+

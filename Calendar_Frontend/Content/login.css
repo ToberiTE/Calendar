@@ -1,0 +1,139 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.background {
+    background: url(bg1.jpeg) no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+}
+
+.background-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.65);
+}
+
+.login-box {
+    width: 380px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+    .login-box h1 {
+        float: left;
+        font-size: 35px;
+        border-bottom: 5px solid rgb(70,163,70);
+        margin-bottom: 50px;
+        padding: 10px 0;
+    }
+
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 2px solid rgb(70,163,70);
+}
+
+    .textbox i {
+        width: 26px;
+        float: left;
+        text-align: center;
+    }
+
+    .textbox input {
+        border: none;
+        outline: none;
+        background: none;
+        color: white;
+        font-size: 18px;
+        width: 80%;
+        float: left;
+        margin: 0 10px;
+    }
+
+.row {
+    width: 100%;
+    margin-top: 40px;
+}
+
+    .row button {
+        width: 49%;
+        background: none;
+        border: 3px solid rgb(70,163,70);
+        color: white;
+        padding: 8px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    button i {
+        font-size: 20px;
+    }
+
+.register-box {
+    display: none;
+    width: 380px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+    .register-box h1 {
+        float: left;
+        font-size: 35px;
+        border-bottom: 5px solid rgb(100,149,237);
+        margin-bottom: 50px;
+        padding: 10px 0;
+    }
+
+    .register-box .row #showLogin {
+        float: left;
+    }
+
+    .register-box .row #register {
+        border-color: rgb(100,149,237);
+        float: right;
+    }
+
+    .register-box .textbox {
+        border-color: rgb(100,149,237);
+    }
+
+.info {
+    color: red;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 400px) {
+    .login-box {
+        width: 260px;
+    }
+}
+
+:focus {
+    outline: none;
+}
+
+::-moz-focus-inner {
+    border: 0;
+}

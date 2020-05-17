@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth_WebAPI", "Auth_WebAPI\Auth_WebAPI.csproj", "{8C53BEFD-1F74-492C-B82C-2F1CD91A835C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar_Frontend", "Calendar_Frontend\Calendar_Frontend.csproj", "{257C29A2-FEEB-4A66-9D06-0B080BDAAA2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C53BEFD-1F74-492C-B82C-2F1CD91A835C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C53BEFD-1F74-492C-B82C-2F1CD91A835C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C53BEFD-1F74-492C-B82C-2F1CD91A835C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C53BEFD-1F74-492C-B82C-2F1CD91A835C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{257C29A2-FEEB-4A66-9D06-0B080BDAAA2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{257C29A2-FEEB-4A66-9D06-0B080BDAAA2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{257C29A2-FEEB-4A66-9D06-0B080BDAAA2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{257C29A2-FEEB-4A66-9D06-0B080BDAAA2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E605DFFE-E062-4676-85C8-3E0530BD0263}
+	EndGlobalSection
+EndGlobal

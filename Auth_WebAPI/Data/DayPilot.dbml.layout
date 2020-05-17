@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DayPilot">
+  <DataContextMoniker Name="/DayPilotDataContext" />
+  <nestedChildShapes>
+    <classShape Id="8118e5a4-ecfa-4231-9715-4296dbdcb6a0" absoluteBounds="3.625, 2.875, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DayPilotDataContext/event" />
+      <nestedChildShapes>
+        <elementListCompartment Id="34120ee3-5072-455e-a35d-792768c1b916" absoluteBounds="3.64, 3.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
